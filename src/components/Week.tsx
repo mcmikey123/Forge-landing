@@ -15,20 +15,20 @@ export default function Week() {
         <div className="mt-24 space-y-24 md:space-y-32">
           <Stanza
             time="Sunday, late afternoon"
-            body="You sit down with a cup of tea and open the week. Fourteen programmes, nine check-ins, three clients travelling. It takes forty minutes \u2014 not four hours \u2014 because the work has come in already, sorted and waiting."
+            body={"You sit down with a cup of tea and open the week. Fourteen programmes, nine check-ins, three clients travelling. It takes forty minutes \u2014 not four hours \u2014 because the work has come in already, sorted and waiting."}
             art={<ArtWeekGrid />}
           />
 
           <Stanza
             reverse
             time="Monday, on the train"
-            body="A client's energy has been rated two, two days in a row. You see it the moment you open the app. You send a note \u2014 the thread attaches itself to the week it's about, so six weeks from now you'll still know what you meant."
+            body={"A client\u2019s energy has been rated two, two days in a row. You see it the moment you open the app. You send a note \u2014 the thread attaches itself to the week it\u2019s about, so six weeks from now you\u2019ll still know what you meant."}
             art={<ArtPulse />}
           />
 
           <Stanza
             time="Wednesday, mid-session"
-            body="One of the compound lifts isn't moving. You tap the cell, drop the load, add a note in the margin. The client sees the change live, keeps going, finishes the set. You don't have to email a new PDF that night."
+            body={"One of the compound lifts isn\u2019t moving. You tap the cell, drop the load, add a note in the margin. The client sees the change live, keeps going, finishes the set. You don\u2019t have to email a new PDF that night."}
             art={<ArtCell />}
           />
 
@@ -56,11 +56,7 @@ function Stanza({
   reverse?: boolean;
 }) {
   return (
-    <div
-      className={`grid md:grid-cols-12 gap-10 md:gap-16 items-center ${
-        reverse ? "" : ""
-      }`}
-    >
+    <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-center">
       <Reveal
         className={`md:col-span-6 ${reverse ? "md:order-2" : ""}`}
       >
@@ -138,7 +134,7 @@ function ArtWeekGrid() {
         fillOpacity="0.35"
         fontFamily="ui-sans-serif"
       >
-        14 programmes \u00b7 9 check-ins \u00b7 3 away
+        {"14 programmes \u00b7 9 check-ins \u00b7 3 away"}
       </text>
     </svg>
   );
@@ -156,7 +152,7 @@ function ArtPulse() {
         fontFamily="ui-sans-serif"
         letterSpacing="0.06em"
       >
-        ENERGY \u00b7 14 DAYS
+        {"ENERGY \u00b7 14 DAYS"}
       </text>
 
       <path
@@ -301,7 +297,7 @@ function ArtCell() {
           fontFamily="ui-serif"
           fontStyle="italic"
         >
-          note \u2014
+          {"note \u2014"}
         </text>
         <text
           x="96"
@@ -400,7 +396,6 @@ function ArtPhotos() {
         y2="315"
         stroke="#c5572a"
         strokeWidth="1.5"
-        markerEnd=""
       />
       <text
         x="399"
