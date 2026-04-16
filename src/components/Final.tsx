@@ -49,7 +49,7 @@ export default function Final() {
               className="inline-flex items-center gap-2 rounded-full bg-paper text-ink px-7 py-3.5 text-sm hover:bg-ember hover:text-paper transition-colors duration-300"
             >
               Begin a programme
-              <span>\u2192</span>
+              <span>{"\u2192"}</span>
             </a>
             <a
               href="mailto:hello@forgept.app?subject=Walk-through"

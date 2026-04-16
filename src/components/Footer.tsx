@@ -89,7 +89,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t hair flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-ink/40">
-          <span>\u00a9 ForgePT, 2026. All rights reserved.</span>
+          <span>{"\u00a9"} ForgePT, 2026. All rights reserved.</span>
           <span>Designed &amp; written in London.</span>
         </div>
       </div>
