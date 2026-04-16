@@ -47,7 +47,7 @@ export default function Nav() {
           >
             Begin
             <span className="inline-block transition-transform group-hover:translate-x-0.5">
-              \u2192
+              →
             </span>
           </a>
 
@@ -103,7 +103,7 @@ export default function Nav() {
             onClick={() => setMobileOpen(false)}
             className="inline-flex items-center gap-2 rounded-full bg-ink text-paper px-6 py-3 text-sm w-fit"
           >
-            Begin \u2192
+            Begin →
           </a>
         </nav>
       </div>

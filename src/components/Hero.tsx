@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="mx-auto max-w-[1400px] px-6 md:px-10 relative z-10">
         <p className="eyebrow rise">
           <span>Coaching software</span>
-          <span className="mx-3 opacity-40">\u00b7</span>
+          <span className="mx-3 opacity-40">·</span>
           <span>Written for personal trainers</span>
         </p>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full bg-ink text-paper px-7 py-3.5 text-sm hover:bg-ember transition-colors duration-300"
           >
             Begin a programme
-            <span>\u2192</span>
+            <span>→</span>
           </a>
           <a
             href="#week"

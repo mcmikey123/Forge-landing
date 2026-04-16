@@ -32,7 +32,7 @@ export default function Marquee() {
             ) : (
               t
             )}
-            <span className="mx-6 text-ink/15">\u00b7</span>
+            <span className="mx-6 text-ink/15">·</span>
           </span>
         ))}
       </div>
