@@ -63,13 +63,13 @@ function BuilderVisual() {
       <div className="flex items-center justify-between px-5 py-3 border-b hair text-xs">
         <div className="flex gap-5 text-ink/55">
           <span className="text-ink font-medium border-b-2 border-ember pb-2">
-            Day 1 \u00b7 Lower
+            {"Day 1 \u00b7 Lower"}
           </span>
-          <span className="pb-2">Day 2 \u00b7 Upper</span>
-          <span className="pb-2">Day 3 \u00b7 Full</span>
+          <span className="pb-2">{"Day 2 \u00b7 Upper"}</span>
+          <span className="pb-2">{"Day 3 \u00b7 Full"}</span>
           <span className="opacity-40 pb-2">+</span>
         </div>
-        <span className="text-ember/80 text-[11px]">Saved \u00b7</span>
+        <span className="text-ember/80 text-[11px]">{"Saved \u00b7"}</span>
       </div>
 
       {/* Grid */}
@@ -104,7 +104,7 @@ function BuilderVisual() {
                   } ${isActive ? "bg-ember/8 ring-1 ring-ember" : ""}`}
                 >
                   {cell || (
-                    <span className="text-ink/20">\u2014</span>
+                    <span className="text-ink/20">{"\u2014"}</span>
                   )}
                 </div>
               );
@@ -116,9 +116,9 @@ function BuilderVisual() {
       {/* Status bar */}
       <div className="px-5 py-2.5 text-[11px] text-ink/40 flex items-center gap-4 bg-paper-warm/30">
         <span>Editing cell D2</span>
-        <span className="opacity-40">\u00b7</span>
+        <span className="opacity-40">{"\u00b7"}</span>
         <span>Tab to move</span>
-        <span className="opacity-40">\u00b7</span>
+        <span className="opacity-40">{"\u00b7"}</span>
         <span>Enter to confirm</span>
       </div>
     </div>

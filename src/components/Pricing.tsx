@@ -16,7 +16,7 @@ export default function Pricing() {
           <Reveal>
             <PricingCard
               name="Solo"
-              price="\u00a329"
+              price={"\u00a329"}
               per="per month"
               tagline="For the one-coach shop with up to twenty clients on the roster."
               features={[
@@ -33,9 +33,9 @@ export default function Pricing() {
             <PricingCard
               featured
               name="Studio"
-              price="\u00a379"
+              price={"\u00a379"}
               per="per month"
-              tagline="For the coach who\u2019s been asked, twice this year, where they print their t-shirts."
+              tagline={"For the coach who\u2019s been asked, twice this year, where they print their t-shirts."}
               features={[
                 "Unlimited clients",
                 "Your logo, your accent colour",
@@ -130,7 +130,7 @@ function PricingCard({
         }`}
       >
         Begin with {name}
-        <span>\u2192</span>
+        <span>{"\u2192"}</span>
       </a>
     </div>
   );

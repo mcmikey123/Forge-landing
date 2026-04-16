@@ -33,7 +33,7 @@ export default function Opposite() {
                 <em className="italic">Not our calendar.</em>
               </>
             }
-            body="Check-ins fall on the day you agreed with each client, not on the day the app prefers. Daily check-in flow: energy, sleep, soreness, mood \u2014 logged in twenty seconds, sat in one screen for you to read on Monday morning. Weekly review threads attach to the week they're about."
+            body={"Check-ins fall on the day you agreed with each client, not on the day the app prefers. Daily check-in flow: energy, sleep, soreness, mood \u2014 logged in twenty seconds, sat in one screen for you to read on Monday morning. Weekly review threads attach to the week they\u2019re about."}
             art={<ArtCadence />}
           />
 
@@ -165,9 +165,8 @@ function ArtGrid() {
           fontSize={r === 0 ? "10" : "13"}
           fill="#14110e"
           fillOpacity={r === 0 ? 0.45 : 0.8}
-          fontFamily={r === 0 ? "ui-sans-serif" : "ui-sans-serif"}
+          fontFamily="ui-sans-serif"
           letterSpacing={r === 0 ? "0.08em" : "0"}
-          textTransform={r === 0 ? "uppercase" : undefined}
         >
           {t}
         </text>
@@ -233,7 +232,7 @@ function ArtCadence() {
                 fill="#f5f1ea"
                 fontFamily="ui-sans-serif"
               >
-                \u2713
+                {"\u2713"}
               </text>
             )}
           </g>
@@ -249,9 +248,8 @@ function ArtCadence() {
         fillOpacity="0.45"
         fontFamily="ui-sans-serif"
         letterSpacing="0.06em"
-        textTransform="uppercase"
       >
-        Energy \u00b7 seven days
+        {"Energy \u00b7 seven days"}
       </text>
       <path
         d="M 30 240 L 85 225 L 140 215 L 195 235 L 250 260 L 305 230 L 360 200 L 420 210"
