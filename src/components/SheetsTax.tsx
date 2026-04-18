@@ -55,6 +55,9 @@ export default function SheetsTax() {
         <p className="sheets-tax-close">
           No formulas to break. No dropdowns to scroll.
         </p>
+        <p className="sheets-tax-reassure">
+          Already deep in a spreadsheet? <em>We&apos;ll import your current client data for you.</em>
+        </p>
       </div>
     </section>
   );

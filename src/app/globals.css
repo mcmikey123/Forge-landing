@@ -810,6 +810,13 @@ section { padding: 120px 0; position: relative; }
   font-family: var(--serif); font-size: 22px; font-style: italic;
   color: var(--ink-2);
 }
+.sheets-tax-reassure {
+  margin-top: 14px; text-align: center;
+  font-size: 14.5px; color: var(--ink-3);
+}
+.sheets-tax-reassure em {
+  color: var(--ink); font-style: normal; font-weight: 500;
+}
 
 /* Before/After */
 .vs { background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
