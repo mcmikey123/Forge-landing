@@ -4,12 +4,7 @@ import { Ico } from "./icons";
 export default function Hero() {
   return (
     <section className="hero" id="top">
-      <div className="hero-bg">
-        <div className="aurora a1" />
-        <div className="aurora a2" />
-        <div className="aurora a3" />
-        <div className="beam" />
-      </div>
+      <div className="hero-bg" />
       <div className="wrap hero-grid">
         <div>
           <h1 className="display">

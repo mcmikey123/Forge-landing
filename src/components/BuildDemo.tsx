@@ -172,19 +172,19 @@ function CategoryDemo() {
 
 const scenes = [
   {
-    coach: { name: "Amy", role: "Online coach · 62 clients", initials: "A", image: "/images/amy.jpg" },
+    coach: { name: "Amy", role: "Online coach · 62 clients", initials: "A", image: "/images/amy.webp" },
     ask: "Hey would it be possible to add a phase planner so we can plan long term for cutting / maintenance / bulking phases?",
     reply: "Absolutely.",
     Demo: PhaseDemo,
   },
   {
-    coach: { name: "Connor", role: "Strength coach · 38 clients", initials: "C", image: "/images/connor.jpg" },
+    coach: { name: "Connor", role: "Strength coach · 38 clients", initials: "C", image: "/images/connor.webp" },
     ask: "Hey dude, can we add a supplement section so we can assign supplements to certain clients?",
     reply: "No problem.",
     Demo: SupplementDemo,
   },
   {
-    coach: { name: "George", role: "Hybrid gym · 140 clients", initials: "G", image: "/images/george.jpg" },
+    coach: { name: "George", role: "Hybrid gym · 140 clients", initials: "G", image: "/images/george.webp" },
     ask: "Hi, is it possible to add categories for clients? For example sports performance, bodybuilding, casual fitness.",
     reply: "Yeah no worries.",
     Demo: CategoryDemo,
