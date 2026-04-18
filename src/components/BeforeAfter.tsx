@@ -4,7 +4,7 @@ export default function BeforeAfter() {
       <div className="wrap">
         <span className="section-eyebrow">The difference</span>
         <h2 className="section-title">
-          Coaching before Forgept, <em>coaching after.</em>
+          Coaching before ForgePT, <em>coaching after.</em>
         </h2>
         <div className="vs-grid">
           <div className="vs-col bad">
@@ -20,13 +20,13 @@ export default function BeforeAfter() {
           </div>
           <div className="vs-vs">vs</div>
           <div className="vs-col good">
-            <span className="vs-tag">Forgept</span>
-            <div className="vs-headline">Open Forgept. Coach.</div>
+            <span className="vs-tag">ForgePT</span>
+            <div className="vs-headline">Open ForgePT. Coach.</div>
             <ul className="vs-list">
               <li><span className="ic">✓</span>Today&apos;s sessions and check ins on the homepage you asked us to build.</li>
-              <li><span className="ic">✓</span>Marcus&apos;s check in already threaded on his profile, with sentiment flagged.</li>
+              <li><span className="ic">✓</span>Marcus&apos;s check in already threaded on his profile, right where you need it.</li>
               <li><span className="ic">✓</span>Nutrition, &quot;two eggs on sourdough, flat white.&quot; Logged. Done.</li>
-              <li><span className="ic">✓</span>At risk clients surfaced automatically, with the <em>why</em>.</li>
+              <li><span className="ic">✓</span>At risk clients flagged in your view, with the <em>why</em>.</li>
               <li><span className="ic">✓</span>New feature idea? Message the team. Shipped in days, not quarters.</li>
             </ul>
           </div>

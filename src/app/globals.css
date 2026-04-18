@@ -771,6 +771,46 @@ section { padding: 120px 0; position: relative; }
 .nutri-cell .n-val { font-family: var(--serif); font-size: 20px; color: var(--ink); line-height: 1.1; margin-top: 2px; }
 .nutri-cell .n-val em { color: var(--accent); font-style: normal; }
 
+/* Sheets Tax */
+.sheets-tax-section { background: var(--bg); }
+.sheets-tax {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.sheets-tax-pains { display: flex; flex-direction: column; gap: 28px; }
+.sheets-tax-group-tag {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-3);
+  padding-bottom: 10px; margin-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.sheets-tax-list { list-style: none; padding: 0; margin: 0; }
+.sheets-tax-list li {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 12px 0; border-top: 1px solid var(--line);
+  font-size: 14.5px; color: var(--ink-2);
+}
+.sheets-tax-list li:first-child { border-top: 0; padding-top: 0; }
+.sheets-tax-list .ic {
+  flex-shrink: 0; margin-top: 2px;
+  font-family: var(--serif); font-style: italic; font-size: 18px;
+  width: 20px; color: var(--warn);
+}
+.sheets-tax-demo { display: flex; flex-direction: column; gap: 14px; }
+.sheets-tax .nutri-demo { margin-top: 0; }
+.sheets-tax-caption {
+  font-size: 14px; color: var(--ink-3);
+  text-align: center; font-style: italic;
+}
+.sheets-tax-close {
+  margin-top: 48px; text-align: center;
+  font-family: var(--serif); font-size: 22px; font-style: italic;
+  color: var(--ink-2);
+}
+
 /* Before/After */
 .vs { background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .vs-grid { margin-top: 56px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; position: relative; }
@@ -1129,7 +1169,7 @@ footer.site {
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .app-mock { aspect-ratio: 9/10; }
   section { padding: 80px 0; }
-  .problem-grid, .features-grid, .vs-grid, .pricing-wrap, .enquiry-wrap, .adapts-wrap, .diff-steps { grid-template-columns: 1fr !important; gap: 20px !important; }
+  .problem-grid, .features-grid, .vs-grid, .pricing-wrap, .enquiry-wrap, .adapts-wrap, .diff-steps, .sheets-tax { grid-template-columns: 1fr !important; gap: 20px !important; }
   .feat.col-3, .feat.col-2, .feat.col-4 { grid-column: span 1 !important; }
   .vs-vs { display: none; }
   .foot-grid { flex-direction: column; align-items: flex-start; }
