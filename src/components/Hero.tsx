@@ -13,29 +13,20 @@ export default function Hero() {
       <div className="wrap hero-grid">
         <div>
           <h1 className="display">
-            Software that adapts <em>to you</em>, not the other way round.
+            Your coaching business, <em>your software.</em>
           </h1>
           <p className="lead">
-            Forgept is a client platform we hand build around how <em>you</em> actually coach.
-            Your workflow, your check ins, your language. No more wrangling Notion, spreadsheets and WhatsApp.
+            Built on ForgePT&apos;s coaching engine. Shaped around how you coach.
+            Personal trainer software tailored to your workflow, not another generic PT app.
           </p>
           <div className="hero-ctas">
-            <a href="#enquire" className="btn btn-primary btn-lg">
-              Enquire now <Ico.arrow />
-            </a>
-            <a href="#adapts" className="btn btn-ghost btn-lg">
-              See how it adapts
+            <a href="#book" className="btn btn-primary btn-lg">
+              Book a build call <Ico.arrow />
             </a>
           </div>
           <div className="hero-proof">
-            <div className="avatars">
-              <div className="av">MF</div>
-              <div className="av">PD</div>
-              <div className="av">JR</div>
-              <div className="av">EH</div>
-            </div>
             <span>
-              <span className="dot" /> &nbsp;For online coaches managing 20 to 200 clients
+              <span className="dot" /> &nbsp;We&apos;ll map how you coach and show you what your setup would look like.
             </span>
           </div>
         </div>

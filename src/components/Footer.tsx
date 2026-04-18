@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="foot-left">
           <a className="brand" href="#top">
             <BrandMark />
-            Forgept
+            ForgePT
           </a>
         </div>
-        <div className="foot-mid">Software that adapts to you, not the other way round.</div>
+        <div className="foot-mid">Personal trainer software built around how you coach.</div>
         <div className="foot-right">
           A product of <a href="#">Luma Digital</a> · © 2026
         </div>

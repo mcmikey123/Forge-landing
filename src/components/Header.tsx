@@ -18,10 +18,10 @@ export default function Header() {
           Forgept
         </a>
         <nav className="nav-links">
-          <a href="#problem">Why Forgept</a>
-          <a href="#adapts">How it works</a>
-          <a href="#features">Features</a>
+          <a href="#problem">Why ForgePT</a>
+          <a href="#how">How it works</a>
           <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
         </nav>
         <div className="nav-right">
           <button
@@ -31,8 +31,8 @@ export default function Header() {
           >
             {theme === "dark" ? <Ico.sun /> : <Ico.moon />}
           </button>
-          <a className="btn btn-primary" href="#enquire">
-            Enquire now <Ico.arrow />
+          <a className="btn btn-primary" href="#book">
+            Book a build call <Ico.arrow />
           </a>
         </div>
       </div>

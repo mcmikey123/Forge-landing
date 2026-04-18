@@ -1,21 +1,18 @@
 const pains = [
   {
     i: "i.",
-    title: "Your stack isn't a stack, it's a scrapbook",
-    body: "Spreadsheets for programmes. WhatsApp for check ins. Notion for notes. Nothing talks to anything else.",
-    quote: "\"I spend 2 hours every Sunday copying numbers between apps.\"",
+    title: "You adapt to the software",
+    body: "Your process gets forced into someone else's system, whether it fits or not.",
   },
   {
     i: "ii.",
-    title: "Generic SaaS bends you out of shape",
-    body: "You force your coaching into someone else's template. Tabs you don't need, fields that don't fit, workflows that fight you.",
-    quote: "\"The software has opinions. I have better ones.\"",
+    title: "Your stack becomes a mess",
+    body: "Check-ins in one place. Messaging in another. Programming somewhere else.",
   },
   {
     i: "iii.",
-    title: "You can't see how your clients are doing",
-    body: "Adherence, RPE trends, check in sentiment. Scattered across DMs, screenshots and half remembered conversations.",
-    quote: "\"By the time I notice someone's slipping, they've already ghosted.\"",
+    title: "Clients feel the friction",
+    body: "Clunky systems, slow responses, and a disconnected experience.",
   },
 ];
 
@@ -25,10 +22,10 @@ export default function Problem() {
       <div className="wrap">
         <span className="section-eyebrow">The problem</span>
         <h2 className="section-title">
-          Generic coaching software was built for <em>someone else</em>.
+          Generic coaching software wasn&apos;t built for <em>how you coach</em>.
         </h2>
         <p className="section-sub">
-          Most platforms ship one template and expect 40,000 different coaches to squeeze into it. That&apos;s why you end up back in WhatsApp.
+          Most platforms are designed for scale — not for the way real PTs operate day-to-day.
         </p>
         <div className="problem-grid">
           {pains.map((p, i) => (
@@ -36,10 +33,12 @@ export default function Problem() {
               <div className="pain-icon">{p.i}</div>
               <div className="pain-title">{p.title}</div>
               <div className="pain-body">{p.body}</div>
-              <div className="pain-quote">{p.quote}</div>
             </div>
           ))}
         </div>
+        <p className="problem-transition">
+          You end up working around your tools instead of them working for you.
+        </p>
       </div>
     </section>
   );

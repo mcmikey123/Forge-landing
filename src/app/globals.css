@@ -952,6 +952,211 @@ footer.site {
 .seg button { padding: 5px 11px; border-radius: 999px; font-size: 12px; color: var(--ink-3); }
 .seg button.active { background: var(--accent); color: var(--accent-ink); }
 
+/* ---------- Problem transition line ---------- */
+.problem-transition {
+  margin: 40px auto 0;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: clamp(18px, 2vw, 22px);
+  color: var(--ink-2);
+  font-style: italic;
+  max-width: 640px;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Differentiator (the money section) ---------- */
+.differentiator {
+  position: relative;
+  background:
+    radial-gradient(ellipse 60% 45% at 50% 0%, color-mix(in oklab, var(--accent) 10%, transparent) 0%, transparent 60%),
+    var(--bg);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 140px 0 140px;
+}
+.differentiator .section-title { max-width: 900px; }
+.diff-steps {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+}
+.diff-steps::before {
+  content: "";
+  position: absolute;
+  top: 44px; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line-2) 15%, var(--line-2) 85%, transparent);
+  z-index: 0;
+}
+.diff-step {
+  position: relative; z-index: 1;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px 30px;
+  transition: all .3s ease;
+}
+.diff-step:hover {
+  border-color: color-mix(in oklab, var(--accent) 35%, var(--line));
+  transform: translateY(-3px);
+  box-shadow: 0 24px 60px -30px color-mix(in oklab, var(--accent) 40%, transparent);
+}
+.diff-step-num {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--accent); color: var(--accent-ink);
+  display: grid; place-items: center;
+  font-family: var(--serif); font-weight: 500;
+  font-size: 22px; letter-spacing: -0.01em;
+  margin-bottom: 22px;
+  box-shadow: 0 10px 30px -8px color-mix(in oklab, var(--accent) 50%, transparent);
+}
+.diff-step-title {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2vw, 26px);
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.diff-step-body {
+  font-size: 15px;
+  color: var(--ink-3);
+  line-height: 1.55;
+}
+.diff-pullquote {
+  margin: 80px auto 0;
+  text-align: center;
+  padding: 34px 24px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  max-width: 820px;
+  position: relative;
+}
+.diff-pullquote span {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(26px, 3.4vw, 40px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.diff-cta {
+  margin-top: 48px;
+  display: flex; justify-content: center;
+}
+
+/* ---------- Risk reversal ---------- */
+.risk { padding: 60px 0; background: var(--bg); }
+.risk-card {
+  max-width: 860px; margin: 0 auto;
+  background: linear-gradient(180deg, color-mix(in oklab, var(--accent) 10%, var(--bg-2)), var(--bg-2));
+  border: 1px solid color-mix(in oklab, var(--accent) 35%, var(--line));
+  border-radius: var(--radius-lg);
+  padding: 40px 44px;
+  text-align: center;
+  box-shadow: 0 30px 80px -40px color-mix(in oklab, var(--accent) 50%, transparent);
+}
+.risk-eyebrow {
+  display: inline-block;
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--accent);
+  padding: 5px 12px;
+  border: 1px solid color-mix(in oklab, var(--accent) 45%, transparent);
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+.risk-copy {
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.4vw, 28px);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+}
+.risk-copy em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* ---------- Pricing extras ---------- */
+.price-anchor {
+  max-width: 760px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(18px, 1.8vw, 22px);
+  color: var(--ink-2);
+  line-height: 1.4;
+  margin: 0 0 28px;
+  padding-left: 14px;
+  border-left: 2px solid var(--accent);
+}
+.price-summary {
+  font-size: 13.5px;
+  color: var(--ink-3);
+  line-height: 1.45;
+  margin: 18px 0 0;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+  font-style: italic;
+}
+.price-card.featured .price-summary { color: var(--ink-2); }
+.price-clarifier {
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 14.5px;
+  color: var(--ink-3);
+  max-width: 680px;
+}
+.price-cta {
+  margin-top: 36px;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+}
+.price-cta-sub {
+  font-size: 13.5px;
+  color: var(--ink-3);
+  margin: 0;
+  text-align: center;
+}
+
+/* ---------- FAQ ---------- */
+.faq { background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.faq-list {
+  margin-top: 48px;
+  max-width: 820px;
+  border-top: 1px solid var(--line);
+}
+.faq-item { border-bottom: 1px solid var(--line); }
+.faq-q {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px;
+  padding: 22px 4px;
+  text-align: left;
+  font-family: var(--serif);
+  font-size: clamp(17px, 1.6vw, 20px);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  cursor: pointer;
+  transition: color .2s ease;
+}
+.faq-q:hover { color: var(--accent); }
+.faq-toggle {
+  font-family: var(--serif);
+  font-size: 26px;
+  color: var(--ink-3);
+  line-height: 1;
+  flex-shrink: 0;
+}
+.faq-item.open .faq-toggle { color: var(--accent); }
+.faq-a {
+  padding: 0 4px 22px;
+  font-size: 15px;
+  color: var(--ink-2);
+  line-height: 1.6;
+  max-width: 720px;
+}
+
 /* Responsive */
 @media (max-width: 920px) {
   .wrap { padding: 0 22px; }
@@ -960,8 +1165,12 @@ footer.site {
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .app-mock { aspect-ratio: 9/10; }
   section { padding: 80px 0; }
-  .problem-grid, .features-grid, .vs-grid, .pricing-wrap, .enquiry-wrap, .adapts-wrap { grid-template-columns: 1fr !important; gap: 20px !important; }
+  .problem-grid, .features-grid, .vs-grid, .pricing-wrap, .enquiry-wrap, .adapts-wrap, .diff-steps { grid-template-columns: 1fr !important; gap: 20px !important; }
   .feat.col-3, .feat.col-2, .feat.col-4 { grid-column: span 1 !important; }
   .vs-vs { display: none; }
   .foot-grid { flex-direction: column; align-items: flex-start; }
+  .differentiator { padding: 80px 0; }
+  .diff-steps::before { display: none; }
+  .diff-pullquote { margin-top: 48px; padding: 28px 16px; }
+  .risk-card { padding: 32px 24px; }
 }

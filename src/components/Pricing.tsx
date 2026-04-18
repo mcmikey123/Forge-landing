@@ -2,44 +2,41 @@ import { Ico } from "./icons";
 
 const tiers = [
   {
-    name: "Starter",
-    tag: "Solo coach",
-    price: "£99",
-    desc: "For coaches managing up to 25 clients.",
+    name: "Solo",
+    tag: "Independent PTs",
+    price: "£49.99",
+    desc: "For independent PTs getting set up properly.",
     features: [
-      "Up to 25 active clients",
-      "Client profiles, programming and check ins",
-      "Plain English nutrition logging",
-      "Messaging and check in threads",
-      "Email support",
+      "One initial build cycle (your system set up around how you coach)",
+      "Core coaching setup (programming, check-ins, client tracking)",
+      "Light monthly tweaks as you refine your process",
     ],
+    summary: "You're paying for a solid foundation plus small ongoing adjustments.",
   },
   {
-    name: "Studio",
-    tag: "Most popular",
-    price: "£199",
-    desc: "For growing coaching businesses.",
+    name: "Established",
+    tag: "Most common",
+    price: "£79.99",
+    desc: "For coaches refining and improving how they operate.",
     features: [
-      "Up to 100 active clients",
-      "Everything in Starter",
-      "Your workspace, built to your workflow",
-      "Priority feature iterations",
-      "Direct line to the build team",
+      "Deeper initial build (more customised workflows and tracking)",
+      "Monthly refinement sessions to evolve your system",
+      "More advanced setup across programs, check-ins, and client management",
     ],
+    summary: "You're paying for ongoing optimisation, not just setup.",
     featured: true,
   },
   {
     name: "Scale",
-    tag: "Teams and gyms",
-    price: "£399",
-    desc: "For teams of coaches or high volume operators.",
+    tag: "Teams & studios",
+    price: "£129.99",
+    desc: "For growing coaching businesses and teams.",
     features: [
-      "Unlimited clients",
-      "Everything in Studio",
-      "Multi coach accounts and permissions",
-      "Dedicated account manager",
-      "Custom integrations and modules",
+      "Full system build across your coaching operation",
+      "Ongoing build partnership (continuous iteration and improvements)",
+      "Multi-coach setup and more complex workflows",
     ],
+    summary: "You're paying for continuous system design as your business scales.",
   },
 ];
 
@@ -47,12 +44,15 @@ export default function Pricing() {
   return (
     <section id="pricing">
       <div className="wrap">
+        <p className="price-anchor">
+          Every ForgePT setup is custom-built. Plans simply reflect how much we build and how much we evolve it with you.
+        </p>
         <span className="section-eyebrow">Pricing</span>
         <h2 className="section-title">
-          Simple monthly pricing, <em>built around you.</em>
+          Custom-built software, <em>with ongoing refinement</em>.
         </h2>
         <p className="section-sub">
-          Every plan includes your custom built workspace. No setup fees. Cancel any time.
+          No templates. No locked features. Every plan includes a tailored build — the difference is how far we take it, and how much we continue shaping it with you.
         </p>
         <div className="pricing-wrap">
           {tiers.map((t, i) => (
@@ -62,22 +62,27 @@ export default function Pricing() {
               <div className="price-desc">{t.desc}</div>
               <div className="price-value">
                 {t.price}
-                <small>/mo</small>
+                <small>/month</small>
               </div>
               <ul className="price-features">
                 {t.features.map((f, j) => (
                   <li key={j}>{f}</li>
                 ))}
               </ul>
-              <a
-                href="#enquire"
-                className={`btn ${t.featured ? "btn-primary" : "btn-ghost"} btn-lg form-submit`}
-                style={{ marginTop: 24 }}
-              >
-                {t.featured ? "Enquire now" : `Choose ${t.name}`} <Ico.arrow />
-              </a>
+              <p className="price-summary">{t.summary}</p>
             </div>
           ))}
+        </div>
+        <p className="price-clarifier">
+          All plans include access to the ForgePT platform — what changes is how much we shape it around you.
+        </p>
+        <div className="price-cta">
+          <a href="#book" className="btn btn-primary btn-lg">
+            Book a build call <Ico.arrow />
+          </a>
+          <p className="price-cta-sub">
+            We&apos;ll walk through your coaching setup and show you exactly what we&apos;d build.
+          </p>
         </div>
       </div>
     </section>

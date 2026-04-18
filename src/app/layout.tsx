@@ -18,14 +18,14 @@ const hand = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Forgept · Software that adapts to you",
+  title: "ForgePT — Personal Trainer Software Built Around How You Coach",
   description:
-    "Forgept is a client platform we hand build around how you actually coach. Your workflow, your check ins, your language.",
+    "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build ForgePT around how you actually coach.",
   metadataBase: new URL("https://forgept.app"),
   openGraph: {
-    title: "Forgept · Software that adapts to you",
+    title: "ForgePT — Personal Trainer Software Built Around How You Coach",
     description:
-      "Forgept is a client platform we hand build around how you actually coach.",
+      "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build ForgePT around how you actually coach.",
     type: "website",
   },
 };

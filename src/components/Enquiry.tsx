@@ -12,19 +12,19 @@ export default function Enquiry() {
   };
 
   return (
-    <section className="enquiry" id="enquire">
+    <section className="enquiry" id="book">
       <div className="wrap enquiry-wrap">
         <div className="enquiry-copy">
-          <span className="section-eyebrow">Enquire</span>
+          <span className="section-eyebrow">Book a build call</span>
           <h2 className="section-title">
             Tell us how <em>you</em> coach.
           </h2>
           <p className="section-sub">
-            We&apos;ll come back within one working day to book a 20 minute call. No pitch deck, just a conversation about your day and whether Forgept fits.
+            We&apos;ll come back within one working day to book a call. No pitch deck — just a conversation about your day and what we&apos;d build for you.
           </p>
           <ul className="enquiry-list">
-            <li><span className="ic">i.</span>We&apos;ll ask how you currently manage clients, top to bottom.</li>
-            <li><span className="ic">ii.</span>We&apos;ll sketch a workspace tailored to your workflow.</li>
+            <li><span className="ic">i.</span>We&apos;ll map how you currently coach, top to bottom.</li>
+            <li><span className="ic">ii.</span>We&apos;ll show you exactly what your ForgePT setup would look like.</li>
             <li><span className="ic">iii.</span>You decide whether to build. No obligation, no commitment.</li>
           </ul>
         </div>
@@ -101,7 +101,7 @@ export default function Enquiry() {
                 />
               </div>
               <button type="submit" className="btn btn-primary form-submit">
-                Send enquiry <Ico.arrow />
+                Book a build call <Ico.arrow />
               </button>
               <div className="form-footnote">No newsletters. No drip sequences. A human will read this.</div>
             </form>
