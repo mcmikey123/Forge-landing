@@ -15,10 +15,10 @@ export default function Header() {
       <div className="wrap nav">
         <a className="brand" href="#top">
           <BrandMark />
-          Forgept
+          Sculptr
         </a>
         <nav className="nav-links">
-          <a href="#problem">Why ForgePT</a>
+          <a href="#problem">Why Sculptr</a>
           <a href="#how">How it works</a>
           <a href="#pricing">Pricing</a>
           <a href="#faq">FAQ</a>

@@ -8,7 +8,7 @@ const steps = [
   },
   {
     n: "02",
-    title: "We build your version of ForgePT",
+    title: "We build your version of Sculptr",
     body: "Tailored dashboards, tracking, and workflows based on you, not a template.",
   },
   {
@@ -27,7 +27,7 @@ export default function Differentiator() {
           We build the app <em>around how you coach</em>.
         </h2>
         <p className="section-sub">
-          Not templates. Not presets. We work with you to shape ForgePT around your exact workflow — then keep refining it as you grow.
+          Not templates. Not presets. We work with you to shape Sculptr around your exact workflow — then keep refining it as you grow.
         </p>
 
         <div className="diff-steps">
@@ -41,7 +41,7 @@ export default function Differentiator() {
         </div>
 
         <div className="diff-pullquote">
-          <span>No two ForgePT setups are the same.</span>
+          <span>No two Sculptr setups are the same.</span>
         </div>
 
         <div className="diff-cta">

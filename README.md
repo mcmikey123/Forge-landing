@@ -1,6 +1,6 @@
-# ForgePT — Landing Site
+# Sculptr — Landing Site
 
-Marketing site for ForgePT, coaching software for personal trainers.
+Marketing site for Sculptr, coaching software for personal trainers.
 
 ## Run
 

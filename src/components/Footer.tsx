@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="foot-left">
           <a className="brand" href="#top">
             <BrandMark />
-            ForgePT
+            Sculptr
           </a>
         </div>
         <div className="foot-mid">Personal trainer software built around how you coach.</div>

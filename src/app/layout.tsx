@@ -11,14 +11,14 @@ const sans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "ForgePT — Personal Trainer Software Built Around How You Coach",
+  title: "Sculptr — Personal Trainer Software Built Around How You Coach",
   description:
-    "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build ForgePT around how you actually coach.",
-  metadataBase: new URL("https://forgept.app"),
+    "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build Sculptr around how you actually coach.",
+  metadataBase: new URL("https://sculptr.app"),
   openGraph: {
-    title: "ForgePT — Personal Trainer Software Built Around How You Coach",
+    title: "Sculptr — Personal Trainer Software Built Around How You Coach",
     description:
-      "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build ForgePT around how you actually coach.",
+      "Custom-built personal trainer software shaped around your workflow. Not another generic PT app — we build Sculptr around how you actually coach.",
     type: "website",
   },
 };

@@ -11,7 +11,7 @@ export default function Hero() {
             Your coaching business, <em>your software.</em>
           </h1>
           <p className="lead">
-            Built on ForgePT&apos;s coaching engine. Shaped around how you coach.
+            Built on Sculptr&apos;s coaching engine. Shaped around how you coach.
             Personal trainer software tailored to your workflow, not another generic PT app.
           </p>
           <div className="hero-ctas">

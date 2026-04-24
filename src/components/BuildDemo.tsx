@@ -231,7 +231,7 @@ export default function BuildDemo() {
           )}
           {phase === 2 && (
             <div className="msg us" key={`${sceneIdx}-typing`}>
-              <div className="m-av">f</div>
+              <div className="m-av">s</div>
               <div className="m-bubble">
                 <span className="typing"><span /><span /><span /></span>
               </div>
@@ -239,7 +239,7 @@ export default function BuildDemo() {
           )}
           {phase >= 3 && (
             <div className="msg us" key={`${sceneIdx}-reply`}>
-              <div className="m-av">f</div>
+              <div className="m-av">s</div>
               <div className="m-bubble">{scene.reply}</div>
             </div>
           )}
@@ -247,7 +247,7 @@ export default function BuildDemo() {
       </div>
       <div className="app-pane">
         <div className="app-pane-head">
-          <span>Your Forgept</span>
+          <span>Your Sculptr</span>
           {phase < 4 ? (
             <span className="clearing">clearing</span>
           ) : (

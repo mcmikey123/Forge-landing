@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <section id="features">
       <div className="wrap">
-        <span className="section-eyebrow">Inside Forgept</span>
+        <span className="section-eyebrow">Inside Sculptr</span>
         <h2 className="section-title">
           Everything you need. <em>Nothing you don&apos;t.</em>
         </h2>

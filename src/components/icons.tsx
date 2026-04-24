@@ -2,7 +2,7 @@ import type { SVGProps } from "react";
 
 export function BrandMark() {
   return (
-    <div className="brand-mark" aria-label="Forgept">
+    <div className="brand-mark" aria-label="Sculptr">
       <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
         <rect x="3" y="3" width="7" height="7" rx="1.4" transform="rotate(-8 6.5 6.5)" />
         <rect x="12" y="3" width="7" height="7" rx="1.4" />

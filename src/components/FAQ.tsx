@@ -20,7 +20,7 @@ const faqs = [
     a: "Yes. You can move between plans as your business changes. The only thing that shifts is how much we continue shaping the system with you.",
   },
   {
-    q: "Do I need technical skills to use ForgePT?",
+    q: "Do I need technical skills to use Sculptr?",
     a: "No. The whole point is that we handle the build. You coach, we shape the software around you.",
   },
 ];
