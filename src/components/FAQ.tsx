@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
+import { Wordmark } from "./icons";
 
-const faqs = [
+const faqs: { q: ReactNode; a: string }[] = [
   {
     q: "What happens on a build call?",
     a: "We walk through how you currently coach — your onboarding, check-ins, programming and client flow. By the end of the call you'll know exactly what we'd build for you, how long it'll take, and what your setup would look like.",
@@ -20,7 +21,7 @@ const faqs = [
     a: "Yes. You can move between plans as your business changes. The only thing that shifts is how much we continue shaping the system with you.",
   },
   {
-    q: "Do I need technical skills to use Sculptr?",
+    q: <>Do I need technical skills to use <Wordmark />?</>,
     a: "No. The whole point is that we handle the build. You coach, we shape the software around you.",
   },
 ];

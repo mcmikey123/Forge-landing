@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Ico } from "./icons";
+import { Ico, Wordmark } from "./icons";
 
 export default function Enquiry() {
   const [sent, setSent] = useState(false);
@@ -24,7 +24,7 @@ export default function Enquiry() {
           </p>
           <ul className="enquiry-list">
             <li><span className="ic">i.</span>We&apos;ll map how you currently coach, top to bottom.</li>
-            <li><span className="ic">ii.</span>We&apos;ll show you exactly what your Sculptr setup would look like.</li>
+            <li><span className="ic">ii.</span>We&apos;ll show you exactly what your <Wordmark /> setup would look like.</li>
             <li><span className="ic">iii.</span>You decide whether to build. No obligation, no commitment.</li>
           </ul>
         </div>

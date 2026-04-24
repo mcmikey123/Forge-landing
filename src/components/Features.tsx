@@ -1,10 +1,11 @@
 import NutritionInput from "./NutritionInput";
+import { Wordmark } from "./icons";
 
 export default function Features() {
   return (
     <section id="features">
       <div className="wrap">
-        <span className="section-eyebrow">Inside Sculptr</span>
+        <span className="section-eyebrow">Inside <Wordmark /></span>
         <h2 className="section-title">
           Everything you need. <em>Nothing you don&apos;t.</em>
         </h2>

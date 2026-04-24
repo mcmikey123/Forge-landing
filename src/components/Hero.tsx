@@ -1,5 +1,5 @@
 import BuildDemo from "./BuildDemo";
-import { Ico } from "./icons";
+import { Ico, Wordmark } from "./icons";
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
             Your coaching business, <em>your software.</em>
           </h1>
           <p className="lead">
-            Built on Sculptr&apos;s coaching engine. Shaped around how you coach.
+            Built on <Wordmark />&apos;s coaching engine. Shaped around how you coach.
             Personal trainer software tailored to your workflow, not another generic PT app.
           </p>
           <div className="hero-ctas">

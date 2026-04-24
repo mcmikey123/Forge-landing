@@ -1,4 +1,4 @@
-import { Ico } from "./icons";
+import { Ico, Wordmark } from "./icons";
 
 const tiers = [
   {
@@ -45,7 +45,7 @@ export default function Pricing() {
     <section id="pricing">
       <div className="wrap">
         <p className="price-anchor">
-          Every Sculptr setup is custom-built. Plans simply reflect how much we build and how much we evolve it with you.
+          Every <Wordmark /> setup is custom-built. Plans simply reflect how much we build and how much we evolve it with you.
         </p>
         <span className="section-eyebrow">Pricing</span>
         <h2 className="section-title">
@@ -74,7 +74,7 @@ export default function Pricing() {
           ))}
         </div>
         <p className="price-clarifier">
-          All plans include access to the Sculptr platform — what changes is how much we shape it around you.
+          All plans include access to the <Wordmark /> platform — what changes is how much we shape it around you.
         </p>
         <div className="price-cta">
           <a href="#book" className="btn btn-primary btn-lg">

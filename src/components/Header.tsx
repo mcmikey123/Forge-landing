@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { BrandMark, Ico } from "./icons";
+import { BrandMark, Ico, Wordmark } from "./icons";
 
 export default function Header() {
   const [theme, setTheme] = useState<"dark" | "light">("dark");
@@ -15,10 +15,10 @@ export default function Header() {
       <div className="wrap nav">
         <a className="brand" href="#top">
           <BrandMark />
-          Sculptr
+          <Wordmark />
         </a>
         <nav className="nav-links">
-          <a href="#problem">Why Sculptr</a>
+          <a href="#problem">Why <Wordmark /></a>
           <a href="#how">How it works</a>
           <a href="#pricing">Pricing</a>
           <a href="#faq">FAQ</a>

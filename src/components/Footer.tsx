@@ -1,4 +1,4 @@
-import { BrandMark } from "./icons";
+import { BrandMark, Wordmark } from "./icons";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="foot-left">
           <a className="brand" href="#top">
             <BrandMark />
-            Sculptr
+            <Wordmark />
           </a>
         </div>
         <div className="foot-mid">Personal trainer software built around how you coach.</div>

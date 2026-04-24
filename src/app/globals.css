@@ -81,6 +81,7 @@ header.site {
 }
 .brand-mark svg { display: block; }
 .brand-mark span { transform: rotate(6deg); line-height: 1; margin-top: -1px; }
+.wordmark-pt { color: var(--accent); }
 .nav-links { display: flex; gap: 28px; font-size: 14px; color: var(--ink-2); }
 .nav-links a:hover { color: var(--ink); }
 .nav-right { display: flex; align-items: center; gap: 12px; }

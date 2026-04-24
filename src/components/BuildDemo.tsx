@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Wordmark } from "./icons";
 
 type Cur = { x: number; y: number; tap: boolean };
 
@@ -247,7 +248,7 @@ export default function BuildDemo() {
       </div>
       <div className="app-pane">
         <div className="app-pane-head">
-          <span>Your Sculptr</span>
+          <span>Your <Wordmark /></span>
           {phase < 4 ? (
             <span className="clearing">clearing</span>
           ) : (

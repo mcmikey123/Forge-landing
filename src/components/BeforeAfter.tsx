@@ -1,10 +1,12 @@
+import { Wordmark } from "./icons";
+
 export default function BeforeAfter() {
   return (
     <section className="vs">
       <div className="wrap">
         <span className="section-eyebrow">The difference</span>
         <h2 className="section-title">
-          Coaching before Sculptr, <em>coaching after.</em>
+          Coaching before <Wordmark />, <em>coaching after.</em>
         </h2>
         <div className="vs-grid">
           <div className="vs-col bad">
@@ -20,8 +22,8 @@ export default function BeforeAfter() {
           </div>
           <div className="vs-vs">vs</div>
           <div className="vs-col good">
-            <span className="vs-tag">Sculptr</span>
-            <div className="vs-headline">Open Sculptr. Coach.</div>
+            <span className="vs-tag"><Wordmark /></span>
+            <div className="vs-headline">Open <Wordmark />. Coach.</div>
             <ul className="vs-list">
               <li><span className="ic">✓</span>Today&apos;s sessions and check ins on the homepage you asked us to build.</li>
               <li><span className="ic">✓</span>Marcus&apos;s check in already threaded on his profile, right where you need it.</li>
